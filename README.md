@@ -1,6 +1,13 @@
 # JobPortal
 
+It is a simple UI of a Job Portal, where an admin can add new candidates to the portal
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
+
 
 ## Development server
 
