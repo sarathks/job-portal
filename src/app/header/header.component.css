@@ -1,0 +1,13 @@
+.portal-page-header{
+	padding: 1%;
+    background: #1a1a2b;
+    color: #afb334;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 80px;
+}
+
+.portal-page-heading{
+	font-size: 25px;
+}

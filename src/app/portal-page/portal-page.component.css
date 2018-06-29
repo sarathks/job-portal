@@ -1,0 +1,7 @@
+.portal-page-content{
+	padding-top: 120px;
+    background: #e2e6e5;
+    min-height: 100vh;
+    height: auto;
+    overflow: auto;
+}

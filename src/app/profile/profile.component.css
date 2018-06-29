@@ -1,0 +1,15 @@
+.profile-wrapper{
+	background: white;
+    width: 100%;
+    height: auto;
+    border: 2px solid #060606;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.profile-name{
+	font-size: 20px;
+    color: #0f1229;
+    font-weight: 600;
+    padding-left: 5%;
+}

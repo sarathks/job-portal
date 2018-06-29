@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  url: 'https://test-ca2ee.firebaseio.com'
 };
