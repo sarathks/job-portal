@@ -13,6 +13,7 @@ declare var $:any; // we can use $ for jQuery anywhere in this file
 export class PortalPageComponent implements OnInit {
 
   public candidateData:any = [];
+  public selectedPerson: string;
 
   constructor(private ajaxCall:AjaxService) { }
 
@@ -29,6 +30,10 @@ export class PortalPageComponent implements OnInit {
   		}
   		);
 
+  }
+
+  getEvent=(candidate)=>{
+    this.selectedPerson = candidate.name;
   }
 
 }

@@ -1,7 +1,19 @@
 .portal-page-content{
-	padding-top: 120px;
+	padding-top: 50px;
     background: #e2e6e5;
-    min-height: 100vh;
-    height: auto;
+    /*min-height: 100vh;*/
     overflow: auto;
+    position:absolute; top:80px; bottom:5vh; left:0px; right:0px; overflow:auto;
+    
+}
+
+.portal-page-selection{
+	margin-left: 2%;
+    font-size: 20px;
+    color: #03030a;
+    margin-bottom: 30px;
+}
+
+::-webkit-scrollbar {
+display: none;
 }

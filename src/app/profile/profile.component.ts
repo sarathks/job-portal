@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-profile',
@@ -8,10 +8,15 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProfileComponent implements OnInit {
   
   @Input() profile:any;
+  @Output() clickedOnProfile = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  clickedTheProfileTab=()=>{
+  	this.clickedOnProfile.emit(this.profile);
   }
 
 }

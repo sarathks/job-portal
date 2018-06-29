@@ -20,6 +20,7 @@ export class AddNewComponent implements OnInit {
     .subscribe(
       (data)=>{
         this.newUser = {};
+        this.newUser.name = "";
         alert("Data has been updated");
       },
       (error)=>{

@@ -1,5 +1,5 @@
-<div class="profile-wrapper" *ngIf="profile.name">
-	<p class="profile-name">{{profile.name}}</p>
+<div class="profile-wrapper" *ngIf="profile.name" (click) = "clickedTheProfileTab()">
+	<p class="profile-name">{{profile.name | uppercase}} </p>
 	<ul>
 		<li>{{profile.qualification}}</li>
 		<li>{{profile.skill}}</li>
