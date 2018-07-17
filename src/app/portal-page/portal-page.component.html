@@ -3,6 +3,6 @@
 <!-- <p class="portal-page-selection">{{selectedPerson}} is Clicked</p> -->
 
 	<div class="candidate-profile">
-		<app-profile *ngFor=" let candidate of candidateData" [profile]="candidate" (clickedOnProfile)='getEvent($event)' class="col-xs-3" ></app-profile>
+		<app-profile *ngFor=" let candidate of candidateData" [profile]="candidate" (clickedOnProfile)='getEvent($event)' class="col-md-3 col-xs-6" ></app-profile>
     </div>
 </div>
